@@ -1,0 +1,17 @@
+{
+  "name": "sweet-rush",
+  "private": true,
+  "version": "0.1.1",
+  "description": "Sweet Rush — кооперативная 3D-кондитерская на двоих для одного планшета (браузер, multi-touch).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --open /dev.html",
+    "build": "tsc -p . && node build-single.cjs",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.1.0"
+  }
+}
